@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "titulo": "Proyecto 1",
+      "descripcion": "Una descripción del proyecto 1",
+      "imagenes": ["imagen1.jpg", "imagen2.jpg"],
+      "fecha": "2023-01-15",
+      "url": "https://www.ejemplo.com/proyecto1"
+    },
+    {
+      "id": 2,
+      "titulo": "Proyecto 2",
+      "descripcion": "Una descripción del proyecto 2",
+      "imagenes": ["imagen3.jpg", "imagen4.jpg"],
+      "fecha": "2023-02-20",
+      "url": "https://www.ejemplo.com/proyecto2"
+    }
+  ]
+  

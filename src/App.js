@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route, useState } from 'react-router-dom'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import About from './components/About';
+import Creations from './components/Creations';
+import Layout from './components/Layout';
+import Favorites from './components/Favorites';
+import 'bootstrap/dist/css/bootstrap.css';
+import creaciones from './data/creaciones.json'; // Importa el archivo JSON
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Layout />}>
+      <Route index element={<Home />}></Route>
+      <Route path="/Creations" element={<Creations />}></Route>
+      <Route path="/About" element={<About/>}></Route>
+      <Route path="/Favorites" element={<Favorites/>}></Route>
+
+    </Route>
+  </Routes>
+</BrowserRouter>
+
   );
 }
 
