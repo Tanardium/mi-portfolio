@@ -4,9 +4,9 @@
       "id": "1",
       "titulo": "ejemplo2",
       "descripcion": "ADADADADA",
-      "img": "",
+      "img": "./public/images/fitters.png",
       "fecha": "",
-      "url": "",
+      "url": "https://github.com/Franchuu21/APP-FITTERSS",
       "destacado": false
     },
     {

@@ -14,7 +14,7 @@ function Item({ creacion}) {
         <Card.Body className='card-body' style={{}}>
           <Card.Title style={{ display: 'flex', justifyContent: 'center', fontWeight: 'bolder' }}>{creacion.titulo}</Card.Title>
           <div className='botones'>
-            <Button style={{ backgroundColor: 'black', borderColor: 'black' }} className='card-button' variant="primary" target='blank'>View on GitHub</Button>
+            <Button style={{ backgroundColor: 'black', borderColor: 'black' }} className='card-button' variant="primary" target='blank' href= {creacion.url}>View on GitHub</Button>
             <Button style={{ backgroundColor: 'black', borderColor: 'black' }} className='card-button' variant="primary">Details</Button>
           </div>
         </Card.Body>
