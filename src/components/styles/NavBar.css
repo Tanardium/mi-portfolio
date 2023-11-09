@@ -1,0 +1,28 @@
+/* NavBar.css */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo translúcido */
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    height: 60px; /* Ajusta la altura según tus preferencias */
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 10px; /* Espacio entre elementos */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    font-weight: bold;
+    justify-content: center;
+    color: white; /* Color del texto */
+  }
+  

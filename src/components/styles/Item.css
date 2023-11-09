@@ -1,0 +1,29 @@
+.card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.card-container{
+    width: 21%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.card-body{
+    align-items: center;
+    background-color: aliceblue;
+    border-color:aliceblue;
+}
+.card-button{
+width: 100%;
+margin-left: 10px;
+margin-right: 10px ;
+}
+.botones{
+    display: flex;
+}
+.icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background:none;
+  }
