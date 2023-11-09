@@ -2,8 +2,8 @@
   "creaciones": [
     {
       "id": "1",
-      "titulo": "ejemplo2",
-      "descripcion": "ADADADADA",
+      "titulo": "Fitters",
+      "descripcion": "Proyecto final fitters app de nutricion",
       "img": "./public/images/fitters.png",
       "fecha": "",
       "url": "https://github.com/Franchuu21/APP-FITTERSS",
