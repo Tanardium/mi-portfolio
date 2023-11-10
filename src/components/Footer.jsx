@@ -67,32 +67,7 @@ export default function Footer() {
                             <Linkedin />
                         </MDBBtn>
                     </MDBCol>
-                    <MDBCol lg="3" md="6" className='mb-4 mb-md-0' style={{color:'aliceblue'}}>
-                        <h5 className='text-uppercase mb-0'>Links</h5>
-
-                        <ul className='list-unstyled'>
-                            <li>
-                                <a href='#!' className='text-white'>
-                                    Link 1
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#!' className='text-white'>
-                                    Link 2
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#!' className='text-white'>
-                                    Link 3
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#!' className='text-white'>
-                                    Link 4
-                                </a>
-                            </li>
-                        </ul>
-                    </MDBCol>
+                    
 
                 </MDBRow>
             </MDBContainer>

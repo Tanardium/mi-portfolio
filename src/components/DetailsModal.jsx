@@ -10,7 +10,7 @@ const DetailsModal = ({ showModal, handleCloseModal, description }) => {
         <Modal.Title>Detalles</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p>Descripción: {description}</p>
+        <p> {description}</p>
         {/* Agrega aquí otros detalles del proyecto */}
       </Modal.Body>
       <Modal.Footer>

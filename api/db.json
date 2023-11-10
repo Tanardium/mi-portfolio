@@ -11,66 +11,31 @@
     },
     {
       "id": "2",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
+      "titulo": "Out of the box",
+      "descripcion": "Este fue el 8 tp de la materia de EFSI",
+      "img": "./public/images/fedeee.jpg",
       "fecha": "",
-      "url": "",
+      "url": "https://github.com/Tanardium/TP8-Out-of-the-Box",
       "destacado": true
     },
     {
       "id": "3",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
+      "titulo": "Lista Tareas",
+      "descripcion": "Este fue un tp de DAI que me olvide de entregar jaja",
+      "img": "./public/images/gonzalez.png",
       "fecha": "",
-      "url": "",
+      "url": "https://github.com/Tanardium/listatareasssss",
       "destacado": true
     },
     {
       "id": "4",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
+      "titulo": "To do List",
+      "descripcion": "Este fue el 2 tp de la materia EFSI",
+      "img": "./public/images/pumaaaa.jpg",
       "fecha": "",
-      "url": "",
-      "destacado": false
-    },
-    {
-      "id": "5",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
-      "fecha": "",
-      "url": "",
-      "destacado": true
-    },
-    {
-      "id": "6",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
-      "fecha": "",
-      "url": "",
-      "destacado": true
-    },
-    {
-      "id": "7",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
-      "fecha": "",
-      "url": "",
-      "destacado": false
-    },
-    {
-      "id": "8",
-      "titulo": "pseint",
-      "descripcion": "ADADADADA",
-      "img": "",
-      "fecha": "",
-      "url": "",
+      "url": "https://github.com/juanlogu/TP2-to-do-list",
       "destacado": false
     }
+  
   ]
 }

@@ -22,12 +22,9 @@ export default function Projects(props) {
 
   return (
     <div>
-      <h2 className='text' style={{ textAlign: 'center' }}>
+      <h1 className='text' style={{ textAlign: 'center' }}>
         Aca estan mis proyectos papaaaa
-      </h2>
-      <p className='text' style={{ textAlign: 'center' }}>
-        No son muchos pero es lo que hay
-      </p>
+      </h1>
       <section className='lista-items'>
         {creaciones?.map((creacion, index) => (
           <Item key={index} creacion={creacion} />
