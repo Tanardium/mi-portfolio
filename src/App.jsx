@@ -4,8 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 // Páginas:
 import Home from './pages/Home'
-import Projects from './pages/Projects'
-import Favorites from './pages/Favorites'
+import Projects from './pages/projects'
+import Favorites from './pages/favorites'
 
 function App() {
   return (

@@ -24,8 +24,9 @@ export default function Home() {
   return (
     <>
       <div className='texto-animado'>
-        <h1 className="title" id='texto'>This is the portfolio of TAno</h1>
-        <h3 style={{color: 'aliceblue', paddingBottom: '3rem'}}>texto</h3>
+        <h1 className="title" id='texto'>Este es el portfolio de Santino Cassieri</h1>
+        <h3 style={{color: 'aliceblue', paddingBottom: '3rem',textAlign: 'center  '}}>Este es mi portfolio espero que les guste</h3>
+        
       </div>
     </>
   );

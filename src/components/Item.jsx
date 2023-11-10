@@ -1,7 +1,8 @@
+// Item.jsx
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import DetailsModal from './DetailsModal'; // Asegúrate de que el import de DetailsModal sea correcto
+import DetailsModal from './DetailsModal';
 import './styles/Item.css';
 
 function Item({ creacion }) {
@@ -40,8 +41,8 @@ function Item({ creacion }) {
         </Card.Body>
       </Card>
 
-      {/* Utiliza el componente del modal de detalles */}
-      <DetailsModal showModal={showModal} handleCloseModal={handleCloseModal} details="Agrega aquí los detalles que deseas mostrar." />
+      {/* Utiliza el componente del modal de detalles y pasa creacion.descripcion como prop */}
+      <DetailsModal showModal={showModal} handleCloseModal={handleCloseModal} description={creacion.descripcion} />
     </div>
   );
 }
